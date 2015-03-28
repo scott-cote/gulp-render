@@ -37,7 +37,7 @@ function appendJsxPragma(filename, contents) {
  */
 function renderToString(page) {
   var layout = null, child = null, props = {};
-  while ((layout = page.type.layout || (page.defaultProps && page.defaultProps.layout))) {
+  while ((layout = page.layout || (page.defaultProps && page.defaultProps.layout))) {
     child = React.createElement(page, props, child);
     _.extend(props, page.defaultProps);
     React.renderToString(React.createElement(page, props, child));
