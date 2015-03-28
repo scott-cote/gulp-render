@@ -31,8 +31,8 @@
   "dependencies": {
     "gulp-util": "^3.0.1",
     "lodash": "^2.4.1",
-    "react": "^0.12.1",
-    "react-tools": "^0.12.1",
+    "react": "^0.13.1",
+    "react-tools": "^0.13.1",
     "through2": "^0.6.3"
   },
   "devDependencies": {
